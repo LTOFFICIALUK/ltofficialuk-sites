@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ltofficial.xyz'),
-  title: 'LT Official UK - Web2 & Web3 Web Developer',
+  title: 'LT Official - Web2 & Web3 Web Developer',
   description: 'Professional web developer specializing in web2 & web3 projects. Expert in Next.js, React, and blockchain development.',
   keywords: 'web2, web3, web developer, Next.js, React, blockchain, cryptocurrency',
   authors: [{ name: 'LT Official UK' }],
@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'LT Official UK - Web2 & Web3 Web Developer',
+    title: 'LT Official - Web2 & Web3 Web Developer',
     description: 'Professional web developer specializing in web2 & web3 projects.',
     type: 'website',
     locale: 'en_GB',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LT Official UK - Web2 & Web3 Web Developer',
+    title: 'LT Official - Web2 & Web3 Web Developer',
     description: 'Professional web developer specializing in web2 & web3 projects.',
   },
   robots: {

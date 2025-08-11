@@ -44,7 +44,7 @@ const Navigation = () => {
           <div className="flex items-center space-x-3">
             <Logo size={32} />
             <h1 className="text-2xl font-bold gradient-text">
-              LT Official UK
+              LT Official
             </h1>
           </div>
 

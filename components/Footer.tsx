@@ -60,7 +60,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-4">
                 <Logo size={40} />
                 <h3 className="text-2xl font-bold gradient-text">
-                  LT Official UK
+                  LT Official - Web2 & Web3 Web Developer
                 </h3>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
