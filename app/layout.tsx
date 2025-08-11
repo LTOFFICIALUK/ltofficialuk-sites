@@ -5,14 +5,17 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ltofficialuk.com'),
+  metadataBase: new URL('https://ltofficial.xyz'),
   title: 'LT Official UK - Web2 & Web3 Web Developer',
   description: 'Professional web developer specializing in web2 & web3 projects. Expert in Next.js, React, and blockchain development.',
   keywords: 'web2, web3, web developer, Next.js, React, blockchain, cryptocurrency',
   authors: [{ name: 'LT Official UK' }],
   creator: 'LT Official UK',
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.svg', sizes: 'any' },
+    ],
   },
   openGraph: {
     title: 'LT Official UK - Web2 & Web3 Web Developer',
@@ -40,7 +43,9 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="alternate icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
       </head>
       <body className={`${inter.className} antialiased`}>
         {children}
