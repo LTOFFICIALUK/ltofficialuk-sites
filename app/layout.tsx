@@ -5,6 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ltofficialuk.com'),
   title: 'LT Official UK - Meme Coin Crypto Developer',
   description: 'Professional web developer specializing in meme coin crypto projects. Expert in Next.js, React, and blockchain development.',
   keywords: 'meme coin, crypto developer, web development, Next.js, React, blockchain, cryptocurrency',
