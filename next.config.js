@@ -4,6 +4,8 @@ const nextConfig = {
     domains: ['images.unsplash.com', 'via.placeholder.com'],
     unoptimized: false,
     formats: ['image/webp', 'image/avif'],
+    loader: 'default',
+    path: '/_next/image',
   },
   typescript: {
     ignoreBuildErrors: false,

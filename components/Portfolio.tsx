@@ -138,9 +138,10 @@ const Portfolio = () => {
                   <Image 
                     src={item.image} 
                     alt={item.title}
-                    fill
-                    className="object-cover object-top transition-transform duration-300 hover:scale-110"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    width={400}
+                    height={192}
+                    className="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-110"
+                    priority={false}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-200/80 to-transparent"></div>
                 </div>
