@@ -6,24 +6,24 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ltofficialuk.com'),
-  title: 'LT Official UK - Meme Coin Crypto Developer',
-  description: 'Professional web developer specializing in meme coin crypto projects. Expert in Next.js, React, and blockchain development.',
-  keywords: 'meme coin, crypto developer, web development, Next.js, React, blockchain, cryptocurrency',
+  title: 'LT Official UK - Web2 & Web3 Web Developer',
+  description: 'Professional web developer specializing in web2 & web3 projects. Expert in Next.js, React, and blockchain development.',
+  keywords: 'web2, web3, web developer, Next.js, React, blockchain, cryptocurrency',
   authors: [{ name: 'LT Official UK' }],
   creator: 'LT Official UK',
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: 'LT Official UK - Meme Coin Crypto Developer',
-    description: 'Professional web developer specializing in meme coin crypto projects.',
+    title: 'LT Official UK - Web2 & Web3 Web Developer',
+    description: 'Professional web developer specializing in web2 & web3 projects.',
     type: 'website',
     locale: 'en_GB',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LT Official UK - Meme Coin Crypto Developer',
-    description: 'Professional web developer specializing in meme coin crypto projects.',
+    title: 'LT Official UK - Web2 & Web3 Web Developer',
+    description: 'Professional web developer specializing in web2 & web3 projects.',
   },
   robots: {
     index: true,
