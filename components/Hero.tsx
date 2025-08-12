@@ -26,10 +26,10 @@ const Hero = () => {
       }}></div>
       
       {/* Floating Elements */}
-      <div className="absolute top-20 left-10 animate-float">
+      <div className="absolute top-20 left-10 animate-float hidden md:block">
         <div className="w-4 h-4 bg-crypto-gold rounded-full opacity-60"></div>
       </div>
-      <div className="absolute top-40 right-20 animate-float" style={{ animationDelay: '2s' }}>
+      <div className="absolute top-40 right-20 animate-float hidden md:block" style={{ animationDelay: '2s' }}>
         <div className="w-6 h-6 bg-crypto-green rounded-full opacity-60"></div>
       </div>
       <div className="absolute bottom-40 left-20 animate-float" style={{ animationDelay: '4s' }}>
@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="container-custom text-center relative z-10">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           {/* Badge */}
-          <div className="inline-flex items-center px-4 py-2 bg-dark-200/50 backdrop-blur-custom rounded-full border border-crypto-green/30 mb-8">
+          <div className="hidden md:inline-flex items-center px-4 py-2 bg-dark-200/50 backdrop-blur-custom rounded-full border border-crypto-green/30 mb-8">
             <Zap className="w-4 h-4 text-crypto-green mr-2" />
             <span className="text-sm font-medium text-crypto-green">Professional Meme Coin Websites</span>
           </div>
