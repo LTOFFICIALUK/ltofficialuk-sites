@@ -12,6 +12,7 @@
   
   body {
     @apply bg-dark-100 text-white font-sans;
+    padding-top: 4rem; /* 64px to account for fixed header */
   }
 }
 
