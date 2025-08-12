@@ -52,7 +52,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed px-4">
             Tokens with professional websites perform better. I create simple, affordable websites 
             that showcase your project, explain your vision, and keep all community links in one place.
           </p>
